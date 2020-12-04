@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/subscription"
+	"github.com/bergotorino/gmqtt"
+	"github.com/bergotorino/gmqtt/subscription"
 )
 
 const name = "prometheus"
