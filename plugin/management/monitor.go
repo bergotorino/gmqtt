@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/pkg/packets"
-	"github.com/DrmagicE/gmqtt/subscription"
+	"github.com/bergotorino/gmqtt"
+	"github.com/bergotorino/gmqtt/pkg/packets"
+	"github.com/bergotorino/gmqtt/subscription"
 )
 
 const (

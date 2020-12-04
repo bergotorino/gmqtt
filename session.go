@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/bergotorino/gmqtt/pkg/packets"
 )
 
 type session struct {

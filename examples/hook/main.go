@@ -9,8 +9,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/bergotorino/gmqtt"
+	"github.com/bergotorino/gmqtt/pkg/packets"
 )
 
 var validUserMu sync.Mutex

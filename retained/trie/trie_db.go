@@ -3,8 +3,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/DrmagicE/gmqtt/pkg/packets"
-	"github.com/DrmagicE/gmqtt/retained"
+	"github.com/bergotorino/gmqtt/pkg/packets"
+	"github.com/bergotorino/gmqtt/retained"
 )
 
 // trieDB implement the retain.Store, it use trie tree  to store retain messages .

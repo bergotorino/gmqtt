@@ -13,12 +13,12 @@ import (
 	"github.com/gorilla/websocket"
 	"go.uber.org/zap"
 
-	retained_trie "github.com/DrmagicE/gmqtt/retained/trie"
-	subscription_trie "github.com/DrmagicE/gmqtt/subscription/trie"
+	retained_trie "github.com/bergotorino/gmqtt/retained/trie"
+	subscription_trie "github.com/bergotorino/gmqtt/subscription/trie"
 
-	"github.com/DrmagicE/gmqtt/pkg/packets"
-	"github.com/DrmagicE/gmqtt/retained"
-	"github.com/DrmagicE/gmqtt/subscription"
+	"github.com/bergotorino/gmqtt/pkg/packets"
+	"github.com/bergotorino/gmqtt/retained"
+	"github.com/bergotorino/gmqtt/subscription"
 )
 
 var (
